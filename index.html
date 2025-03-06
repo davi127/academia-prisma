@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <!-- ssss -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="js/libs/jquery/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="css/matricula.css">
+    <title>ACADEMICA PRISMA</title>
+</head>
+
+<body>
+    <!-- ssss -->
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="#">PRISMA ACADEMY</a></div>
+            <ul class="links">
+                <li><a href="#">INICIO</a></li>
+                <li><a href="#">P&R</a></li>
+                <li><a href="inicioSesion.php">REGISTER</a></li>
+                <li><a href="#">SOBRE NOSOTROS</a></li>
+            </ul>
+            <a href="inicioSesion.php" class="action_btn">LOG IN</a>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <div class="dropdown_menu">
+            <li><a href="#">INICIO</a></li>
+                <li><a href="#">P&R</a></li>
+                <li><a href="#">REGISTER</a></li>
+                <li><a href="#">SOBRE NOSOTROS</a></li>
+                <li><a href="#" class="action_btn">LOG IN</a></li>
+        </div>
+    </header>
+
+    <section class="section main-banner" id="top" data-section="section1">
+        <video autoplay muted loop id="bg-video">
+            <source src="assets/images/course-video.mp4" type="video/mp4" />
+        </video>
+
+        <div class="video-overlay header-text">
+            <div class="caption">
+                <h1 style="font-size: 50px;">Academia Prisma</h1>
+                <p style="font-size: 30px;">"Explora el fascinante mundo de las matemáticas en la Academia Prisma,<br> desbloquea tu potencial en cada ecuación" <br><BR><p class="estudiantesp"><b>	+1000 ESTUANTES SATISFECHOS </b></p></p>
+                <div class="main-button">
+                    <div class="scroll-to-section"><a href="#section2" style="color: black; font-weight: 600;">Saber mas ...</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+
+    <section id="services">
+        <div class="container">
+            <div class="center gap">
+                <h3>Beneficios</h3>
+                <p class="lead">Descubre cómo nuestra institución de matemáticas en Perú puede ayudarte a alcanzar tus metas académicas y profesionales.</p>
+            </div>
+    
+            <div class="row-fluid">
+                <div class="span4">
+                    <div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Programa de Estudio Integral</h4>
+                            <p>Nuestro programa abarca desde conceptos fundamentales hasta temas avanzados, proporcionándote una comprensión completa de las matemáticas.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="span4">
+                    <div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Profesores Especializados</h4>
+                            <p>Contamos con docentes altamente capacitados y dedicados, especializados en la enseñanza de matemáticas, para brindarte la mejor educación posible.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="span4">
+                    <div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Enfoque Práctico</h4>
+                            <p>Nuestro enfoque se centra en aplicaciones prácticas de las matemáticas, preparándote para desafíos del mundo real y futuras oportunidades académicas y profesionales.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="gap"></div>
+    
+            <div class="row-fluid">
+                <div class="span4">
+                    <div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Recursos de Aprendizaje</h4>
+                            <p>Proporcionamos acceso a una amplia variedad de recursos de aprendizaje, incluyendo libros, software y material multimedia, para mejorar tu experiencia educativa.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="span4">
+                    <div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Apoyo Personalizado</h4>
+                            <p>Ofrecemos sesiones de tutoría individualizada para asegurarnos de que recibas el apoyo necesario y puedas abordar áreas específicas de dificultad.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="span4">
+                    <div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Ambiente de Aprendizaje Inspirador</h4>
+                            <p>Nuestras instalaciones están diseñadas para crear un ambiente de aprendizaje inspirador, fomentando la creatividad y el pensamiento crítico en matemáticas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+    
+
+
+    <section id="courses" style="background-image: url('assets/images/main-slider-02.jpg'); background-repeat: no-repeat; background-size: cover;">
+        <div class="container">
+            <div class="center gap">
+                <h3 class="title">Nuestros Cursos</h3>
+                <p style="color: #9ea8b1;">Descubre nuestra selección de cursos diseñados para brindar a nuestros estudiantes una experiencia educativa excepcional.</p>
+            </div>
+    
+            <div class="course-item">
+                <img src="assets/images/courses-1.jpg" alt="Curso 1">
+                <h4 class="titulocursos">Matemáticas Fundamentales</h4>
+                <p class="descripcion-cursos">Este curso proporciona una base sólida en los principios fundamentales de las matemáticas, desde la aritmética hasta el álgebra básica.</p>
+                <a href="#" class="btn-primary">Más Información</a>
+            </div>
+    
+            <div class="course-item">
+                <img src="assets/images/courses-2.jpg" alt="Curso 2">
+                <h4 class="titulocursos">Geometría Creativa</h4>
+                <p class="descripcion-cursos">Explora la geometría de manera creativa, aplicando conceptos geométricos a proyectos prácticos y desafiantes.</p>
+                <a href="#" class="btn-primary">Más Información</a>
+            </div>
+    
+            <div class="course-item">
+                <img src="assets/images/courses-3.jpg" alt="Curso 3">
+                <h4 class="titulocursos">Estadísticas Aplicadas</h4>
+                <p class="descripcion-cursos">Aplica conceptos estadísticos en situaciones del mundo real, analizando datos y tomando decisiones informadas.</p>
+                <a href="#" class="btn-primary">Más Información</a>
+            </div>
+    
+            <div class="course-item">
+                <img src="assets/images/courses-4.jpg" alt="Curso 4">
+                <h4 class="titulocursos">Álgebra Avanzada</h4>
+                <p class="descripcion-cursos">Sumérgete en el álgebra avanzada, resolviendo problemas complejos y explorando conceptos avanzados.</p>
+                <a href="#" class="btn-primary">Más Información</a>
+            </div>
+    
+            <div class="course-item">
+                <img src="assets/images/courses-5.jpg" alt="Curso 5">
+                <h4 class="titulocursos">Cálculo Integral</h4>
+                <p class="descripcion-cursos">Exploración profunda de funciones y propiedades a través del cálculo integral, con aplicaciones prácticas.</p>
+                <a href="#" class="btn-primary">Más Información</a>
+            </div>
+    
+            <div class="course-item">
+                <img src="assets/images/courses-6.jpg" alt="Curso 6">
+                <h4 class="titulocursos">Teoría de Números</h4>
+                <p class="descripcion-cursos">Sumérgete en la fascinante teoría de números, explorando propiedades y aplicaciones en diversas disciplinas.</p>
+                <a href="#" class="btn-primary">Más Información</a>
+            </div>
+    
+        </div>
+    </section>
+    
+    <main>
+        <div class="container" >
+        <h3 class="text-align-center justify-content-center">NUESTROS CICLOS</h3>
+
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3" id="CardContainer">
+          </div>
+      </main>
+
+    <section id="instructors" style="background-image: url('assets/images/main-slider-01.jpg'); background-repeat: no-repeat; background-size: cover;">
+        <div>
+            <div style="width: 100%;text-align: center;">
+                <h3 style="font-size: 36px; color: white;">Nuestros Profesores</h3>
+            </div>
+            <div class="team-carousel" style="width: 100%;">
+                <div class="team-item">
+                    <div class="course-item">
+                        <img src="assets/images/team-1.jpg" alt="Instructor 1">
+                        <div class="bg-light text-center p-4">
+                            <h5 class="mb-3">Profesora María Rodríguez</h5>
+                            <p class="mb-2">Álgebra Avanzada y Teoría de Números</p>
+                            <div class="d-flex justify-content-center">
+                                <img src="assets/images/twitter.png" alt="Twitter">
+                                <img src="assets/images/fb.png" alt="Facebook">
+                                <img src="assets/images/linkedin.png" alt="LinkedIn">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="team-item">
+                    <div class="course-item">
+                        <img src="assets/images/team-2.jpg" alt="Instructor 2">
+                        <div class="bg-light text-center p-4">
+                            <h5 class="mb-3">Profesor Juan García</h5>
+                            <p class="mb-2">Geometría Creativa y Cálculo Integral</p>
+                            <div class="d-flex justify-content-center">
+                                <img src="assets/images/twitter.png" alt="Twitter">
+                                <img src="assets/images/fb.png" alt="Facebook">
+                                <img src="assets/images/linkedin.png" alt="LinkedIn">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="team-item">
+                    <div class="course-item">
+                        <img src="assets/images/team-3.jpg" alt="Instructor 3">
+                        <div class="bg-light text-center p-4">
+                            <h5 class="mb-3">Profesora Ana López</h5>
+                            <p class="mb-2">Estadísticas Aplicadas y Matemáticas Fundamentales</p>
+                            <div class="d-flex justify-content-center">
+                                <img src="assets/images/twitter.png" alt="Twitter">
+                                <img src="assets/images/fb.png" alt="Facebook">
+                                <img src="assets/images/linkedin.png" alt="LinkedIn">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="team-item">
+                    <div class="course-item">
+                        <img src="assets/images/team-4.jpg" alt="Instructor 4">
+                        <div class="bg-light text-center p-4">
+                            <h5 class="mb-3">Profesor Luis Martínez</h5>
+                            <p class="mb-2">Álgebra Avanzada y Teoría de Números</p>
+                            <div class="d-flex justify-content-center">
+                                <img src="assets/images/twitter.png" alt="Twitter">
+                                <img src="assets/images/fb.png" alt="Facebook">
+                                <img src="assets/images/linkedin.png" alt="LinkedIn">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="contact" style="background-image: url('assets/images/contact-bg.jpg'); background-repeat: no-repeat; background-size: cover;">
+        <div class="container">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h4>Direccion</h4>
+                        <p class="m-0">233 calle, Lima, Lima - surquillo</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>Telefono | celular </h4>
+                        <p class="m-0">01293283 | 999393939</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>Correo</h4>
+                        <p class="m-0">prismainfo@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <div class="section-title position-relative mb-4">
+                        <h6 style="font-size: 17px; color: aliceblue;">Necesitas Ayuda?</h6>
+                        <h1 style="font-size: 17px; color: aliceblue;">Mandanos un mensaje</h1>
+                    </div>
+                    <form>
+                        <div class="row">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Tu nombre" required="required">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Tu correo" required="required">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Asunto" required="required">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="5" placeholder="Mensaje" required="required"></textarea>
+                        </div>
+                        <div>
+                            <button class="btn btn-primary py-3 px-5" type="submit">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <footer class="footer">
+        <section class="footer__container container">
+          <nav class="footer__nav">
+            <img src="images/logo.svg" alt="" class="footer__logo">
+            <div class="footer__links">
+              <a href="#" class="footer__link">Acerca de</a>
+              <a href="#" class="footer__link">Cursos</a>
+              <a href="#" class="footer__link">Detalles</a>
+              <a href="#" class="footer__link">Apoyo</a>
+            </div>
+          </nav>
+          <div class="footer__social">
+            <div class="footer__media">
+              <a href="#" class="footer__cta">
+              <img src="images/icon-facebook.svg" alt="" class="footer__icon">
+              </a>
+              <a href="#" class="footer__cta">
+                <img src="images/icon-twitter.svg" alt="" class="footer__icon">
+              </a>
+              <a href="#" class="footer__cta">
+                <img src="images/icon-pinterest.svg" alt="" class="footer__icon">
+              </a>
+              <a href="#" class="footer__cta">
+                <img src="images/icon-instagram.svg" alt="" class="footer__icon">
+              </a>
+            </div>
+            <p class="footer__copywrite">
+              © 2021 Prisma. Todos los derechos reservados.
+            </p>
+          </div>
+        </section>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="script2.js"></script>
+    <script>
+        $(document).ready(function() {
+        // Realiza una solicitud AJAX para obtener los datos de la función DatosCiclo
+            $.ajax({
+                url: 'api/Servicios/DataService.php', // Reemplaza con la ruta real de tu archivo
+                method: 'GET',
+                dataType: 'json',
+                success: function(data) {
+                    if (data) {
+                         var cardContainer = $('#CardContainer');
+                        $.each(data, function(index, registro) {
+                          //manipulando las respuestas de nuestra BD
+                          var img= new Image();
+                          var IdCiclo = registro.IdCiclo;
+                          var IdCicloStr = IdCiclo.toString();
+                          var claveSecreta = "APR.wqc-354*"; // Reemplaza con tu clave secreta
+                          // Cifra el valor usando HMAC-SHA1
+                          var cifrado = CryptoJS.HmacSHA1(IdCicloStr, claveSecreta).toString(CryptoJS.enc.Hex);
+                          //Enlace de la imagen
+                          var ImageURL = "images/imagePrueba"+IdCicloStr+".jpg";
+                          console.log(ImageURL);
+                          // Crea una nueva tarjeta
+                          var nuevaColumna = $('<div class="col">');
+                          var nuevaCard = $('<div class="card">');
+                          var imagen = $('<img class="" id="CicloImage'+IdCiclo+'" alt="">');
+                          var cardBody = $('<div class="card-body">');
+                          var tittleCiclo = $('<h5 class="card-title" id="CicloTittle">');
+                          var universidad = $('<p class="card-text" id="CicloUniversidad">');
+                          var precio = $('<p class="card-text" id="CicloPrecio">');
+                          var btnContainer = $('<div class="d-flex justify-content-between align-items-center flex-wrap gap-2">');
+                          var btnGroup = $('<div class="btn-group">');
+                          var btnDetalles = $('<a href="detalleCiclo.php?id='+IdCiclo+'&token='+cifrado+'" class="btn btn-primary">Detalles</a>');
+                          var btnMatricularse = $('<a href="registro.php?id='+IdCiclo+'&token='+cifrado+'" class="btn btn-success">Matricularse</a>');
+                        
+  
+                          if(registro.nombreUniversidad == "Universidad Mayor de San Marcos"){
+                            let UrlImage = "images/imageSanMaros.jpg";
+                            img.src = UrlImage;
+                            // Asigna los datos a la tarjeta
+                            img.onload = function() {
+                                // La imagen se ha cargado correctamente
+                                console.log("La imagen existe y se ha cargado correctamente.");
+                                imagen.attr('src', UrlImage);
+                            };
+  
+                            img.onerror = function() {
+                                // Se ha producido un error al cargar la imagen
+                                console.log("La imagen no existe o no se ha podido cargar." + IdCiclo);
+                                // Puedes asignar una imagen de reemplazo o manejar el error de otra manera
+                                imagen.attr('src', "images/no-photo.jpg");
+                            };
+  
+                            
+                          }else if(registro.nombreUniversidad == "Universidad NACIONAL DE INGENIERIA (UNI)"){
+                            let UrlImage = "images/imageUni.jpg";
+                            img.src = UrlImage;
+                            // Asigna los datos a la tarjeta
+                            img.onload = function() {
+                                // La imagen se ha cargado correctamente
+                                console.log("La imagen existe y se ha cargado correctamente.");
+                                imagen.attr('src', UrlImage);
+                            };
+  
+                            img.onerror = function() {
+                                // Se ha producido un error al cargar la imagen
+                                console.log("La imagen no existe o no se ha podido cargar." + IdCiclo);
+                                // Puedes asignar una imagen de reemplazo o manejar el error de otra manera
+                                imagen.attr('src', "images/no-photo.jpg");
+                            };
+  
+                          }else if(registro.nombreUniversidad == "Universidad VillaReal"){
+                            let UrlImage = "images/imageVillareal.jpg";
+                            img.src = UrlImage;
+                            // Asigna los datos a la tarjeta
+                            img.onload = function() {
+                                // La imagen se ha cargado correctamente
+                                console.log("La imagen existe y se ha cargado correctamente.");
+                                imagen.attr('src', UrlImage);
+                            };
+  
+                            img.onerror = function() {
+                                // Se ha producido un error al cargar la imagen
+                                console.log("La imagen no existe o no se ha podido cargar." + IdCiclo);
+                                // Puedes asignar una imagen de reemplazo o manejar el error de otra manera
+                                imagen.attr('src', "images/no-photo.jpg");
+                            };
+                          }
+  
+  
+                          universidad.text(registro.nombreUniversidad);
+                          tittleCiclo.text(registro.nombreCiclo);
+                          precio.text('S/' + registro.costo_matricula);
+                          
+                          // Agrega elementos a la tarjeta
+                          nuevaColumna.append(nuevaCard);
+                          nuevaCard.append(imagen);
+                          cardBody.append(tittleCiclo);
+                          cardBody.append(universidad);
+                          cardBody.append(precio);
+                          cardBody.append(btnContainer);
+                          btnGroup.append(btnDetalles);
+                          btnContainer.append(btnGroup);
+                          btnContainer.append(btnMatricularse);
+                          nuevaCard.append(cardBody);
+  
+                          // Agrega la tarjeta al contenedor
+                          cardContainer.append(nuevaColumna);
+  
+                        });
+                    } else {
+                        console.error('Error al obtener los datos desde la función.');
+                    }
+                },
+                error: function(xhr, status, error) {
+                    console.error('Error en la solicitud AJAX: ' + error);
+                }
+            });
+        });
+  
+    </script>
+</body>
+
+
+</html>
